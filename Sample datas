@@ -1,0 +1,15 @@
+Sriskcriticalityindex=
+
+((2*LOG(1.1*$apprevenueimpact, 2)+2*LOG10(1.1*$appcriticality)+2*LOG(1+$appdatagatewayvalue.2))/1 0+(LOG10(1+Sapplegalvalue)/2) + (LOG10(1+$appexternalconnectivityvalue)/2)); Sapprevenuelmpact = taken from questionaire
+
+Sappcriticality taken from questionaire
+
+Sappdatagatewayvalue = if appdatagateway is null or No, the appdatagatewayvalue is 0.
+
+or else it is 1.
+
+Sapplegalvalue if appleagal is No or Not Known, the value is 0, else it is 1.
+
+$appexternalconnectivityvalue if the value of AppInterface is No, Not Known, NA or
+
+decommissioned, then the appexternalconnectivityvalue is 0, or else it is 1.
